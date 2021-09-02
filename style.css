@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-image: url(images/daniel-romero-jcJFOwBTEck-unsplash.jpg);
+    background-size: cover;
+}
+#img1{
+    width: 60px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+ul li{
+    float: left;
+    list-style: none;
+    padding: 0 50px;
+    padding-top: 35px;
+}
+nav{
+    background-color: beige;
+    height: 80px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(28, 112, 151);
+}
+ul li a:hover{
+    color: rgb(32, 31, 28);
+}
+input{
+    position: relative;
+    left: 70px;
+    width: 300px;
+    height: 20px;
+    border: 2px solid blue;
+    margin-top: 28px;
+    border-radius: 20px;
+    background-color: rgb(197, 209, 219);
+    padding: 5px;
+    padding-left: 10px;
+
+}
+input::placeholder {
+    color: rgb(94, 50, 196);
+    
+    
+  }
+  
+#searchbutton{
+    position: relative;
+    left: 70px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    cursor: pointer;
+}
+.productbutton{
+    margin-top: 15px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(23, 20, 230);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#indexheading{
+    text-align: center;
+    position: relative;
+    top: 350px;
+    margin-bottom: 20px;
+    
+}
+#indexpara{
+    text-align: justify;
+    position: relative;
+    top: 350px;
+    padding: 0px 30px;
+}
+#aboutheading{
+    margin: 20px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutpara{
+    padding: 0 30px;
+    text-align: justify;
+}
+.abouth3{
+    margin: 30px;
+}
+#aboutbody{
+    background-image: url(images/tanner-mardis-xUXGHzhIbN4-unsplash.jpg);
+    background-size: cover;
+}
+.abtxtcol{
+    color: rgb(32, 10, 94);
+}
+.abh1{
+    color: rgb(123, 206, 231);
+}
+table{
+    width: 80vw;
+    margin-left: 150px;
+}
+#th1{
+    padding: 15px;
+    font-size: 30px;
+}
+textarea{
+    position: relative;
+    left: 70px;    
+    border: 2px solid blue;
+    margin-top: 28px;
+    border-radius: 20px;
+    background-color: rgb(197, 209, 219);
+    padding: 5px;
+    padding-left: 10px;
+
+}
+#conbody{
+    background-image: url(images/adam-solomon-WHUDOzd5IYU-unsplash.jpg);
+    background-size: cover;
+}
+#conbutton{
+    margin-top: 15px;
+    margin-left: 70px;
+    padding: 5px;
+    width: 330px;
+    height: 35px;
+    background-color: rgb(23, 20, 230);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.icon{
+    width: 50px;
+    margin: 30px 20px;
+}
+#con{
+    margin-left: 50px;
+}
